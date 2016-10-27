@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="YoutuiSDK_QQ">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/youtuiCore_lib/libs/YoutuiSDK_QQ.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

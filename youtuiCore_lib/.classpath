@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="libs/YoutuiSDK_Core.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/YoutuiSDK_HttpClient.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/YoutuiSDK_Point.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/YoutuiSDK_QQ.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/YoutuiSDK_QQMta.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/YoutuiSDK_Renn.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/YouTuiSDK_SinaWeiBo.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/YoutuiSDK_Wechat.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

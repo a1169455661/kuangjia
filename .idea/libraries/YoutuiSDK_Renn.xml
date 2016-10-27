@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="YoutuiSDK_Renn">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/youtuiCore_lib/libs/YoutuiSDK_Renn.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

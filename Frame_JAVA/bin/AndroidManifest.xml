@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.easaa.main"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <!-- 网络权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- SD卡读写权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <application
+        android:name="com.easaa.main.TApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/SwipeTheme" >
+
+        <!-- 启动页 -->
+        <activity
+            android:name="com.easaa.main.WelcomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SwipeTheme"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 引导页 -->
+        <activity
+            android:name="com.easaa.main.GuideActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SwipeTheme"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        
+        <!-- 主页面（单个页面） -->
+        <activity
+            android:name="com.easaa.activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SwipeTheme"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        
+        <!-- 主页面（多个分页面） -->
+         <activity
+            android:name="com.easaa.activity.MainFragmentActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyTheme_slow"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        
+        <activity
+            android:name="com.easaa.activity.FirstActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SwipeTheme"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+        
+        <activity
+            android:name="com.easaa.activity.SecondActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SwipeTheme"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+        </activity>
+
+        <!-- 第三方支付 -->
+        <!-- 1.支付宝 alipay sdk begin -->
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <!-- 第三方支付 -->
+    </application>
+
+</manifest>

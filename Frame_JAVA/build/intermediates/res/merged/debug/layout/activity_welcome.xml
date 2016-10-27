@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/title_bacground"
+    android:orientation="vertical" >
+
+    <include
+        layout="@layout/layout_title_commom"
+        android:visibility="gone" />
+
+    <RelativeLayout
+     android:id="@+id/re_Welcome"
+        style="@style/layout_match"
+        android:background="@color/title_bacground" >
+
+        <ImageView
+            style="@style/layout_wrap"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:background="@drawable/start"
+            android:gravity="center" />
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/D:/kuangjia/Frame_JAVA/res/layout/activity_welcome.xml -->

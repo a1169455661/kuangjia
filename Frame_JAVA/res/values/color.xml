@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="title_bacground">#0284DC</color>
+    <color name="black">#000000</color>
+    <color name="black_">#33000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_">#99FFFFFF</color>
+    <color name="gray_less">#F9F9F9</color>
+    <color name="gray">#EEEEEE</color>
+    <color name="gray_">#33EEEEEE</color>
+    <color name="gray1">#CCCCCC</color>
+    <color name="gray1_">#33CCCCCC</color>
+    <color name="gray2">#999999</color>
+    <color name="gray2_">#33999999</color>
+    <color name="gray_background">#303030</color>
+    <color name="green">#43B460</color>
+    <color name="red">#DD3737</color>
+    <color name="ad_dot_color">#E2E0E1</color>
+    <color name="orange">#EA5926</color>
+    <color name="orange1">#FD5001</color>
+    <color name="orangeorder">#FE9003</color>
+    <color name="pink">#F4968A</color>
+    <color name="blue">#7148C0</color>
+    <color name="blue1">#78A8DA</color>
+    <color name="yellow_bg">#C99959</color>
+    <color name="yellow1">#F9E374</color>
+    <color name="ebpay_regist_transparent">#0094878E</color>
+    <color name="violet">#7F42B3</color>
+    <color name="navpage">#FFE1E8EB</color>
+    <color name="red1">#e36565</color>
+
+    <!-- HJJ COLOR -->
+    <color name="drak_grey">#992D2C34</color>
+    <color name="subscribe_item_drag_stroke">#ffd2d2d2</color>
+    <color name="subscribe_item_selected_stroke">#ffcc3131</color>
+    <color name="subscribe_item_selected_bg">#ffffffff</color>
+    <color name="subscribe_item_disabled_stroke">#ffd9d9d9</color>
+    <color name="subscribe_item_disabled_bg">#ffefefef</color>
+    <color name="subscribe_item_pressed_stroke">#ffcdcdcd</color>
+    <color name="subscribe_item_pressed_bg">#fff9f9f9</color>
+    <color name="subscribe_item_normal_stroke">#ffcdcdcd</color>
+    <color name="subscribe_item_normal_bg">#fff5f5f5</color>
+    <color name="drak_white">#FFF8F8F8</color>
+    <color name="purple">#FF7148C0</color>
+    <color name="transparent">#00000000</color>
+    <color name="yellow">#FFFF9002</color>
+    <color name="trans_ban">#5a3c2e</color>
+    <color name="try_Clothes_Button">#afafaf</color>
+    <color name="gallery_radio_on">#fbc03b</color>
+    <color name="gallery_radio_off">#f0f0f0</color>
+    <color name="app_space">#F5F3EC</color>
+    
+    <color name="bind_cancel_press">#ffd65284</color>
+    <color name="bind_cancel_press_normal">#ffef71a1</color>
+
+</resources>

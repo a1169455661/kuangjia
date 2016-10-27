@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        style="@style/layout_width_full"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="分享到"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_middle" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:baselineAligned="false"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_Pengyouquan"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/pengyouquan_icon"
+                android:gravity="center_horizontal"
+                android:text="朋友圈"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_middle" />
+
+            <TextView
+                android:id="@+id/tv_Weixin"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/weixin_icon"
+                android:gravity="center_horizontal"
+                android:text="微信"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_middle" />
+
+            <TextView
+                android:id="@+id/tv_QQ"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/qq_icon"
+                android:gravity="center_horizontal"
+                android:text="QQ"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_middle" />
+
+            <TextView
+                android:id="@+id/tv_QQzone"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/fx_qqzone"
+                android:gravity="center_horizontal"
+                android:text="QQ空间"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_middle" />
+
+            <TextView
+                android:id="@+id/tv_Xinlang"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/xinlang_icon"
+                android:gravity="center_horizontal"
+                android:text="新浪"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_middle"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/gray"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/tv_DuanXin"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/duanxin_icon"
+                android:gravity="center_horizontal"
+                android:text="短信"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_middle" />
+
+            <TextView
+                android:id="@+id/tv_QQ_zone"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/fx_qqzone"
+                android:gravity="center_horizontal"
+                android:text="QQ空间"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_middle" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawablePadding="10dp"
+                android:drawableTop="@drawable/qq_icon"
+                android:gravity="center_horizontal"
+                android:text="QQ"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_middle" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_Dismiss"
+            android:layout_width="fill_parent"
+            android:layout_height="45.0dip"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginRight="20.0dip"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btn_bind_cancel"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="取消"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_middle" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/kuangjia/Frame_JAVA/res/layout/dialog_order_share.xml -->

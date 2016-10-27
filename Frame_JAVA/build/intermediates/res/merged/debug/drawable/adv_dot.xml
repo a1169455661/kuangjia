@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/gallery_radio_on" android:state_checked="true"></item>
+    <item android:drawable="@drawable/gallery_radio_off" android:state_checked="false"></item>
+</selector><!-- From: file:/D:/kuangjia/Frame_JAVA/res/drawable/adv_dot.xml -->

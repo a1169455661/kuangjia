@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/meeting_four_select" android:state_enabled="false"/>
+    <item android:drawable="@drawable/meeting_four_select" android:state_pressed="true"/>
+    <item android:drawable="@drawable/meeting_four_select" android:state_checked="true"></item>
+    <item android:drawable="@drawable/meeting_four_nomal"/>
+
+</selector><!-- From: file:/D:/kuangjia/Frame_JAVA/res/drawable/bar_meeting_four.xml -->

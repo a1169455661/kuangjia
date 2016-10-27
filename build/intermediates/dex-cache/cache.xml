@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\kuangjia\Frame_JAVA\build\intermediates\exploded-aar\kuangjia\youtuiCore_lib\unspecified\jars\libs\YoutuiSDK_Renn.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="0ca209d760b28d73bbe444888cdd0c20eeaacbc3">
+        <dex dex="D:\kuangjia\Frame_JAVA\build\intermediates\pre-dexed\debug\YoutuiSDK_Renn-71748b690ca301c8f729c6cb34c8e981ba72b799.jar" />
+    </item>
+    <item
+        jar="D:\kuangjia\Frame_JAVA\libs\universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="D:\kuangjia\Frame_JAVA\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.3-2570e074864164c0c610b0cca37d0e5186e81714.jar" />
+    </item>
+    <item
+        jar="D:\kuangjia\Frame_JAVA\build\intermediates\exploded-aar\kuangjia\android-support-v7-appcompat\unspecified\jars\libs\android-support-v7-appcompat.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="f48809ae00888a3b45c70f77adb567918fad97f4">
+        <dex dex="D:\kuangjia\Frame_JAVA\build\intermediates\pre-dexed\debug\android-support-v7-appcompat-ed9a51c97daa1ea82cfacb279222dffad03c0c0a.jar" />
+    </item>
+    <item
+        jar="D:\kuangjia\Frame_JAVA\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="3b20dc871d179ba476082efe543dc1b38db46e30">
+        <dex dex="D:\kuangjia\Frame_JAVA\build\intermediates\pre-dexed\debug\android-support-v4-212c442eebc0bce7f3d9f250e06779b5a277ce3d.jar" />
+    </item>
+    <item
+        jar="D:\kuangjia\Frame_JAVA\libs\alipayutdid.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="4345fa0a5a7768f2f9c86aaab7db9e2906765193">
+        <dex dex="D:\kuangjia\Frame_JAVA\build\intermediates\pre-dexed\debug\alipayutdid-385bdeae8e1046d92924ee0b9ee379915e81ad76.jar" />
+    </item>
+    <item
+        jar="D:\kuangjia\Frame_JAVA\build\intermediates\exploded-aar\kuangjia\youtuiCore_lib\unspecified\jars\libs\YoutuiSDK_QQMta.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="1d1a215c3acd13ef011b8391cab495f7760c2a1d">
+        <dex dex="D:\kuangjia\Frame_JAVA\build\intermediates\pre-dexed\debug\YoutuiSDK_QQMta-b546e2f9d9f23b397a3cf0e7514b42b7a7111a23.jar" />
+    </item>
+    <item
+        jar="D:\kuangjia\Frame_JAVA\build\intermediates\exploded-aar\kuangjia\youtuiCore_lib\unspecified\jars\libs\YoutuiSDK_Point.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="baa05a2949e80b5a68fee4355cfc8029b83b2371">
+        <dex dex="D:\kuangjia\Frame_JAVA\build\intermediates\pre-dexed\debug\YoutuiSDK_Point-b1bec6808d1a0180bd4215cc7d572f56d0f48d51.jar" />
+    </item>
+    <item
+        jar="D:\kuangjia\Frame_JAVA\libs\alipaysecsdk.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="7413c074c9edf523050267b93d0875151dc4b644">
+        <dex dex="D:\kuangjia\Frame_JAVA\build\intermediates\pre-dexed\debug\alipaysecsdk-771ef5b706da65bd1b9a9e0b1b44d5fbec1e3e2f.jar" />
+    </item>
+    <item
+        jar="D:\kuangjia\Frame_JAVA\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="D:\kuangjia\Frame_JAVA\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0-9354f00738a57862b11a0a54533cf7f27524038f.jar" />
+    </item>
+    <item
+        jar="D:\kuangjia\Frame_JAVA\build\intermediates\exploded-aar\kuangjia\youtuiCore_lib\unspecified\jars\libs\YoutuiSDK_QQ.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="0b3529b031b2bb19e03a799fcef7d0f7860c86c0">
+        <dex dex="D:\kuangjia\Frame_JAVA\build\intermediates\pre-dexed\debug\YoutuiSDK_QQ-67536bffd262e970f3abc58d8d747a1037335ca6.jar" />
+    </item>
+    <item
+        jar="D:\kuangjia\Frame_JAVA\build\intermediates\exploded-aar\kuangjia\android-support-v7-appcompat\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="ddb17a23298d5e428b760f7b46affa24a624af9c">
+        <dex dex="D:\kuangjia\Frame_JAVA\build\intermediates\pre-dexed\debug\classes-4bc5cd2e180a7d31cddbfa7225308b9d72c64d2f.jar" />
+    </item>
+    <item
+        jar="D:\kuangjia\Frame_JAVA\libs\gson-2.1.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="bd858833cacb4e6742f7698649fb874a360e230f">
+        <dex dex="D:\kuangjia\Frame_JAVA\build\intermediates\pre-dexed\debug\gson-2.1-093d315f9c17447ee4a81d6b410c7b32f72e81ec.jar" />
+    </item>
+    <item
+        jar="D:\kuangjia\Frame_JAVA\build\intermediates\exploded-aar\kuangjia\youtuiCore_lib\unspecified\jars\libs\YoutuiSDK_Wechat.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="ef29ec238e1bad6c47297595fada8d7a7d794ff0">
+        <dex dex="D:\kuangjia\Frame_JAVA\build\intermediates\pre-dexed\debug\YoutuiSDK_Wechat-cb621bac4613f509c51213b8e4aa038619047286.jar" />
+    </item>
+    <item
+        jar="D:\kuangjia\Frame_JAVA\build\intermediates\exploded-aar\kuangjia\youtuiCore_lib\unspecified\jars\libs\YouTuiSDK_SinaWeiBo.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="94471fb40a1a2175b5993cdf0af0b8e59ed29fb3">
+        <dex dex="D:\kuangjia\Frame_JAVA\build\intermediates\pre-dexed\debug\YouTuiSDK_SinaWeiBo-285e5075f7b2b0933b75cde95fae3a7889c45729.jar" />
+    </item>
+    <item
+        jar="D:\kuangjia\Frame_JAVA\build\intermediates\exploded-aar\kuangjia\youtuiCore_lib\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="b7bf226efe259dc38a9bb6bdc750d518715f65ee">
+        <dex dex="D:\kuangjia\Frame_JAVA\build\intermediates\pre-dexed\debug\classes-f98c9b576594ca4e3a30c1d20a7d777398e03bb8.jar" />
+    </item>
+    <item
+        jar="D:\kuangjia\Frame_JAVA\libs\picasso-2.3.1.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="7ed01353649330c692473b85d5c64db4218338db">
+        <dex dex="D:\kuangjia\Frame_JAVA\build\intermediates\pre-dexed\debug\picasso-2.3.1-e495c66ec74cb45ac6fae01b291ff39d1f49b6a2.jar" />
+    </item>
+    <item
+        jar="D:\kuangjia\Frame_JAVA\build\intermediates\exploded-aar\kuangjia\youtuiCore_lib\unspecified\jars\libs\YoutuiSDK_HttpClient.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="964cd74171f427720480efdec40a7c7f6e58426a">
+        <dex dex="D:\kuangjia\Frame_JAVA\build\intermediates\pre-dexed\debug\YoutuiSDK_HttpClient-5748fbfedaee2320acec9525fa277a2a3b082c69.jar" />
+    </item>
+    <item
+        jar="D:\kuangjia\Frame_JAVA\libs\fastjson-1.2.3.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="3bb3c4cea5bebd1ab4a0a679b61fed0838e71756">
+        <dex dex="D:\kuangjia\Frame_JAVA\build\intermediates\pre-dexed\debug\fastjson-1.2.3-c6319fbbc45176da7c6186e2bcaa44ae4ed2bee3.jar" />
+    </item>
+    <item
+        jar="D:\kuangjia\Frame_JAVA\libs\volley.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="4a94601db9bdfb7dc60efabb3dea91a0675f591d">
+        <dex dex="D:\kuangjia\Frame_JAVA\build\intermediates\pre-dexed\debug\volley-b4608695774c859eaec50991fc8172e590da3999.jar" />
+    </item>
+    <item
+        jar="D:\kuangjia\Frame_JAVA\build\intermediates\exploded-aar\kuangjia\youtuiCore_lib\unspecified\jars\libs\YoutuiSDK_Core.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="d90ca67f2bc10b9c52a45cc4c0b8e57b2dec01be">
+        <dex dex="D:\kuangjia\Frame_JAVA\build\intermediates\pre-dexed\debug\YoutuiSDK_Core-f5756c08ad73ede340fecc8afcc6969fa8ae1a7e.jar" />
+    </item>
+    <item
+        jar="D:\kuangjia\Frame_JAVA\libs\alipaysdk.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="0c3384f9877b711c3f0b6556ce9ec7f63dc2426e">
+        <dex dex="D:\kuangjia\Frame_JAVA\build\intermediates\pre-dexed\debug\alipaysdk-aa8ed28cddc003d70c51f1d51201b7dea627a500.jar" />
+    </item>
+
+</items>

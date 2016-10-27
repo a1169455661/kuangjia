@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="YoutuiSDK_Point">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/youtuiCore_lib/libs/YoutuiSDK_Point.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

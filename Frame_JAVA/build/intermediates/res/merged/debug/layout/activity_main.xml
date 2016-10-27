@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.easaa.activity.MainActivity" >
+
+    <include layout="@layout/layout_title_commom" />
+
+    <TextView
+        android:id="@+id/tv_OnClick_"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="JAVA后台"
+        android:textColor="@color/red"
+        android:textSize="30sp" />
+
+</LinearLayout><!-- From: file:/D:/kuangjia/Frame_JAVA/res/layout/activity_main.xml -->

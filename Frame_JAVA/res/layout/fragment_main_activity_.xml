@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_title_commom" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <RelativeLayout
+            style="@style/layout_match"
+            android:background="@color/gray"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/buttom_bar_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:id="@+id/re_Meeting_One"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/gray"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp" >
+
+                    <ImageButton
+                        android:id="@+id/btn_Meeting_One"
+                        style="@style/layout_wrap"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/bar_meeting_one"
+                        android:contentDescription="@string/app_name" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/re_Meeting_Two"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/gray"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp" >
+
+                    <ImageButton
+                        android:id="@+id/btn_Meeting_Two"
+                        style="@style/layout_wrap"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/bar_meeting_two"
+                        android:contentDescription="@string/app_name" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/re_Meeting_Three"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/gray"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp" >
+
+                    <ImageButton
+                        android:id="@+id/btn_Meeting_Three"
+                        style="@style/layout_wrap"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/bar_meeting_three"
+                        android:contentDescription="@string/app_name" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/re_Meeting_Four"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/gray"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:visibility="visible" >
+
+                    <ImageButton
+                        android:id="@+id/btn_Meeting_Four"
+                        style="@style/layout_wrap"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/bar_meeting_four"
+                        android:contentDescription="@string/app_name" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <View
+                android:id="@+id/line"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_above="@id/buttom_bar_group" />
+
+            <FrameLayout
+                android:id="@+id/fl_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/line" />
+        </RelativeLayout>
+
+        <include
+            android:id="@+id/view_No_NetLayout"
+            layout="@layout/layout_no_network_"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</LinearLayout>

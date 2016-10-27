@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:visibility="visible" >
+
+        <LinearLayout
+            style="@style/layout_width_full"
+            android:layout_centerInParent="true"
+            android:orientation="vertical" >
+
+            <ImageView
+                style="@style/layout_wrap"
+                android:layout_gravity="center"
+                android:background="@drawable/net"
+                android:scaleType="fitXY" />
+
+            <TextView
+                style="@style/layout_width_full"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="网络请求失败"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_Large" />
+
+            <TextView
+                style="@style/layout_width_full"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="请检查您的网络"
+                android:textColor="@color/gray2"
+                android:textSize="@dimen/text_middle" />
+
+            <TextView
+                android:id="@+id/tv_Refresh_Net"
+                style="@style/layout_wrap"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/black_bg_shape"
+                android:paddingBottom="10dp"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:paddingTop="10dp"
+                android:text="刷新"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_middle" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/D:/kuangjia/Frame_JAVA/res/layout/layout_no_network_.xml -->

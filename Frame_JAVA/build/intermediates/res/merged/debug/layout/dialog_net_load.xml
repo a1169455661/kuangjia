@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical" >
+
+    <!-- <RelativeLayout -->
+    <!-- style="@style/layout_Title_Style" -->
+    <!-- android:background="@color/green" > -->
+    <!-- </RelativeLayout> -->
+    <!-- android:background="#CAAE87" -->
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:alpha="0.5"
+        android:background="@drawable/shape_progress_dialog"
+        android:orientation="vertical" >
+
+        <ProgressBar
+            android:id="@+id/toast_img"
+            style="@style/ProgressBar.Walk"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/load" />
+
+        <TextView
+            android:id="@+id/toast_msg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:gravity="center_horizontal"
+            android:paddingBottom="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_small"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/D:/kuangjia/Frame_JAVA/res/layout/dialog_net_load.xml -->

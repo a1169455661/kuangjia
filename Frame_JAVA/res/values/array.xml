@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="guide_Array">
+        <item>http://www.tupianzj.com/uploads/Bizhi/sjfj21_720.jpg</item>
+        <item>http://image.tianjimedia.com/uploadImages/2012/144/86B4U4CXJ924.jpg</item>
+        <item>http://image.tianjimedia.com/uploadImages/2012/244/528HV3K1UQDZ.jpg</item>
+        <item>http://image.tianjimedia.com/uploadImages/2012/244/WDLSJ54Z7326.jpg</item>
+        <item>http://image.tianjimedia.com/uploadImages/2012/244/RXDM27FT4601.jpg</item>
+    </string-array>
+
+</resources>

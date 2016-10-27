@@ -1,0 +1,45 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="MyTheme" mce_bogus="1" parent="android:Theme">
+        <item name="android:windowAnimationStyle">@style/AnimationActivity</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="MyTheme_slow" mce_bogus="1" parent="android:Theme">
+        <item name="android:windowAnimationStyle">@style/AnimationActivity_slow</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="AnimationActivity">
+        <item name="android:activityOpenEnterAnimation">@anim/push_left_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/push_left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/push_right_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/push_right_out</item>
+    </style>
+
+    <style name="AnimationActivity_slow">
+        <item name="android:activityOpenEnterAnimation">@anim/push_left_in_slow</item>
+        <item name="android:activityOpenExitAnimation">@anim/push_left_out_slow</item>
+        <item name="android:activityCloseEnterAnimation">@anim/push_right_in_slow</item>
+        <item name="android:activityCloseExitAnimation">@anim/push_right_out_slow</item>
+    </style>
+
+
+</resources>

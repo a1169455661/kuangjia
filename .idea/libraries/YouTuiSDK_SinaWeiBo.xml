@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="YouTuiSDK_SinaWeiBo">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/youtuiCore_lib/libs/YouTuiSDK_SinaWeiBo.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
